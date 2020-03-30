@@ -281,6 +281,11 @@ header {
         position: relative;
         z-index: 2;
     }
+    .project__img {
+      width: 600px;
+      height: 500px;
+      object-fit: cover;
+    }
 
     .section__subtitle--intro {
         align-self: start;
