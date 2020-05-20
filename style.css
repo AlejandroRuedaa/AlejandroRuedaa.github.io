@@ -263,6 +263,10 @@ header {
     display: inline-block;
 }
 
+.blog__img {
+    width: 500px;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -282,8 +286,8 @@ header {
         z-index: 2;
     }
     .project__img {
-      width: 600px;
-      height: 500px;
+      width: 100%;
+      height: 400px;
       object-fit: cover;
     }
 
